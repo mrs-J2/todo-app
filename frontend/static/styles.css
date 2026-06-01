@@ -39,14 +39,14 @@ body {
 }
 
 h1 {
-    color: #556B2F;
+    color: #030f82;
     font-size: 32px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .subtitle {
-    color: #6B8E23;
+    color: #000d72;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -62,7 +62,7 @@ h1 {
     padding: 12px;
     border: 2px solid #E8F5E9;
     background: white;
-    color: #556B2F;
+    color: #343977;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
@@ -75,9 +75,9 @@ h1 {
 }
 
 .tab.active {
-    background: #6B8E23;
+    background: #4388ff;
     color: white;
-    border-color: #6B8E23;
+    border-color: #610000;
 }
 
 .form-group {
@@ -86,7 +86,7 @@ h1 {
 
 label {
     display: block;
-    color: #556B2F;
+    color: #200e0e;
     font-weight: 600;
     margin-bottom: 8px;
     font-size: 14px;
@@ -105,7 +105,7 @@ input[type="password"] {
 input[type="text"]:focus,
 input[type="password"]:focus {
     outline: none;
-    border-color: #6B8E23;
+    border-color: #2d0079;
 }
 
 .btn {
@@ -119,21 +119,21 @@ input[type="password"]:focus {
 }
 
 .btn-primary {
-    background: #6B8E23;
+    background: #8e2373;
     color: white;
     width: 100%;
 }
 
 .btn-primary:hover {
-    background: #556B2F;
+    background: #8e2373;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(107, 142, 35, 0.3);
+    box-shadow: 0 5px 15px rgba(245, 59, 255, 0.3);
 }
 
 .btn-secondary {
     background: white;
-    color: #6B8E23;
-    border: 2px solid #6B8E23;
+    color: #8e2373;
+    border: 2px solid #8e2373;
 }
 
 .btn-secondary:hover {
@@ -166,7 +166,7 @@ input[type="password"]:focus {
 }
 
 .username {
-    color: #6B8E23;
+    color: #8e2373;
     font-size: 14px;
 }
 
@@ -195,7 +195,7 @@ input[type="password"]:focus {
     padding: 10px 20px;
     border: 2px solid #E8F5E9;
     background: white;
-    color: #556B2F;
+    color: #8e2373;
     border-radius: 8px;
     cursor: pointer;
     font-size: 14px;
@@ -208,9 +208,9 @@ input[type="password"]:focus {
 }
 
 .filter-btn.active {
-    background: #6B8E23;
+    background: #8e2373;
     color: white;
-    border-color: #6B8E23;
+    border-color: #8e2373;
 }
 
 .todo-list {
@@ -228,7 +228,7 @@ input[type="password"]:focus {
 }
 
 .todo-item:hover {
-    border-color: #6B8E23;
+    border-color: #8e2373;
     box-shadow: 0 5px 15px rgba(107, 142, 35, 0.1);
 }
 
@@ -251,14 +251,14 @@ input[type="password"]:focus {
     width: 24px;
     height: 24px;
     cursor: pointer;
-    accent-color: #6B8E23;
+    accent-color: #8e2373;
 }
 
 .todo-title {
     flex: 1;
     font-size: 18px;
     font-weight: 600;
-    color: #556B2F;
+    color: #8e2373;
 }
 
 .todo-actions {
